@@ -1,8 +1,13 @@
 import React from 'react';
+import Header from './Header';
+import CounterComp from './CounterComp';
 
 function App() {
   return (
-    <h1>Olá, Marilene.</h1>
+    <div>
+      <Header title="Olá, Marilene!"/>
+      <CounterComp />
+    </div>
   );
 }
 
