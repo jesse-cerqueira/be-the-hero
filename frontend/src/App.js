@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './Header';
-import CounterComp from './CounterComp';
+// import Header from './Header';
+// import CounterComp from './CounterComp';
+import Routes from './routes';
+
+import './global.css';
 
 function App() {
   return (
-    <div>
-      <Header title="Olá, Marilene!"/>
-      <CounterComp />
-    </div>
+    <Routes />
   );
 }
 
