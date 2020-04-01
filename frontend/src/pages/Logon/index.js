@@ -11,7 +11,7 @@ import { FiLogIn } from 'react-icons/fi';
 
 function Logon() {
   const [id, setId] = useState('');
-  const history = useHistory(); 
+  const history = useHistory();
 
   async function handleLogin(e) {
     e.preventDefault();
